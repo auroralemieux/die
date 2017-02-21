@@ -5,6 +5,10 @@ class Die
   def initialize
     @showing_number = rand(1..6)
   end
+
+  def roll
+    @showing_number = rand(1..6)
+  end
   # def showing_number
   # end
 end
